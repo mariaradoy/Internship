@@ -9,12 +9,12 @@ public class exmpl {
        Scanner scanner = new Scanner(System.in);
        System.out.println("Input number: ");
        int number = scanner.nextInt();
-       int n1 = 0, n2 = 0, n3 = 0;
 
-            n1 = number%1000;
-            n2 = number%100;
-            n3 = number%10;
+            int n1 = number%1000;
+            int n2 = number%100;
+            int n3 = number%10;
 
        System.out.println(n1 + " + " + n2 + " + " + n3);
     }
 }
+
