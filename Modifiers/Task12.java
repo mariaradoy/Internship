@@ -1,6 +1,8 @@
 //Add static property companyName for Worker class. Create 2 instances, with  companyName = “Company 1” and companyName = “Company 2”. 
 //Print the company name of both instances and see the result (add comments about how static property works in the readme.md file located in the task directory).
 
+import java.util.Scanner;
+
 class Worker{
     double salary;
     static String companyName;
@@ -39,8 +41,11 @@ public class methods {
         Worker.setCompanyName("Company 1");
         Worker first = new Worker(6000);
         Worker second = new Worker(5000);
-        System.out.println(Worker.companyName);
+        System.out.println(first.companyName);
+        System.out.println(second.companyName);
         Worker.setCompanyName("Company 2");
-        System.out.println(Worker.companyName);
+        System.out.println(first.companyName);
+        System.out.println(second.companyName);
+        
     }
 }
