@@ -1,0 +1,8 @@
+//Write a Java class that simplifies working with matrices of any size (n, x, m), containing as elements real numbers.
+//
+//In the Matrix class, define the following:
+//
+//    Constructors who will receive matrices in different forms (one-dimensional, two-dimensional arrays).
+//    Methods of displaying an item from a certain position, displaying a row, displaying a column.
+//    A static method of summing two matrices.
+//    Methods of multiplying a matrix with another matrix or a scalar.
