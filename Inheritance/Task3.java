@@ -87,9 +87,4 @@ class Boeing extends Airplane{
         System.out.println("Boeing is flying");
     }
 }
-public class methods {
 
-    public static void main(String[] args) {
-        
-    }
-}
