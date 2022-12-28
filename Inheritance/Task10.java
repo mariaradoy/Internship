@@ -1,3 +1,8 @@
+// Write a subclass called SubClass that is derived from SuperClass and that adds an integer data field called data2 and a public method called checkCondition() 
+// that will check if data1 is equal to 10 and data2 is equal to 15, the checkCondition () method should return “Condition True!”. 
+// Also, create methods called setData2() and getData2() for setting and retrieving the value of data1 and data2, as well as a constructor 
+// that accepts arguments for the starting values of data1 and data2. data1 is data member of SuperClass.
+
 import java.lang.module.Configuration;
 
 class SuperClass{
